@@ -138,8 +138,8 @@ body {
     text-align: center;
     margin: 10px;
 }
-
 #check {display: none;}
+
 @media(max-width: 1030px){
     .menu {
         flex-direction: column;
@@ -165,4 +165,6 @@ body {
         display: flex;
         flex-direction: column;
         padding: 20px;
+        width: 95%;
+}
 }
