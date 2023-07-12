@@ -4,8 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Taekwondo Academy</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    Contact Information Here
+    <header>
+        <nav>
+            <ul class='nav-bar'>
+                <li class='logo'><a href='index.html'><img src='Assets/logoname.png'/></a></li>
+                <input type='checkbox' id='check' />
+                <span class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About Academy</a></li>
+                    <li><a href="#">Program</a></li>
+                    <li><a href="#">Gallery</a></li>
+                    <li><a href="#">Instructor</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                    <label for="check" class="close-menu"><i class="fas fa-times"></i></label>
+                </span>
+                <label for="check" class="open-menu"><i class="fas fa-bars"></i></label>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-contact">
+            <div class="form-text">
+                <h2>Get in Touch</h2>
+                <p>Tell us how we can help you</p>
+            </div>
+            <form class="form-container">
+                <label for="fname">Full Name</label><br>
+                <input type="text" id="fname" name="fname" required><br>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email"required><br>
+                <input type="radio" id="male" name="gender"
+                 value="male" checked>
+                <label for="male" id="gender" >Male</label>
+                <input type="radio" id="female" name="gender" value="female">
+                <label for="female" id="gender">Female</label><br>
+                <label for="level" id="level">What's your level in Taekwondo</label><br>
+                <input type="radio"></input>
+                
+                <br>
+                <input type="submit">
+            </form>
+        </section>
+    </main>
 </body>
 </html>
