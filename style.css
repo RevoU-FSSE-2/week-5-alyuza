@@ -268,6 +268,19 @@ body {
     margin: 25px;
 }
 
+/* Footer */
+.footer-container {
+    background-color: var(--color2);
+    width: 100%;
+    height: 60px;
+    padding: 20px;
+}
+.footer-container strong {color: white;}
+.footer-container p {
+    color: rgb(169, 169, 169);
+    width: 100%;
+}
+
 /* Contact Section */
 .form-text {margin: 30px;}
 .form-text h2 {
@@ -323,6 +336,7 @@ body {
         font-size: 16px;
         line-height: 1.5;
     }
+    .footer-container {height: 12vh;}
     /* Section Instructor */
     .item-instructor {
         margin-bottom: 50px;
