@@ -48,9 +48,9 @@ Importing existing Github project to Netlify.
 3. Pick a repository from github
 4. Site configuration and deploy
 
-<img width="1440" alt="Screenshoot" src="assets/deploy1.png">
+<img width="1440" alt="Screenshoot" src="Assets/deploy1.png">
 
 ## DNS Settings
 Domain is provided by Niagahoster and managed through Cloudflare.
 1. Login to Cloudflare, and then adding new site
-<img width="1440" alt="Screenshoot" src="assets/deploy2.png">
+<img width="1440" alt="Screenshoot" src="Assets/deploy2.png">
