@@ -269,14 +269,14 @@ body {
 }
 
 /* Footer */
-.footer-container {
+.footer {
     background-color: var(--color2);
     width: 100%;
     height: 60px;
     padding: 20px;
 }
-.footer-container strong {color: white;}
-.footer-container p {
+.footer strong {color: white;}
+.footer p {
     color: rgb(169, 169, 169);
     width: 100%;
 }
