@@ -54,3 +54,5 @@ Importing existing Github project to Netlify.
 Domain is provided by Niagahoster and managed through Cloudflare.
 1. Login to Cloudflare, and then adding new site
 <img width="1440" alt="Screenshoot" src="Assets/deploy2.png">
+
+2. Mohon bersabar ini masih diketik :)
