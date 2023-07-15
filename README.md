@@ -20,15 +20,15 @@ Official website of the largest Taekwondo Community in Indonesia, has several tr
   - Contact Us section
 - Footer
 
-### Deployment ⚙️
+## Deployment ⚙️
 The website is hosted by Netlify on [alyuza.site](https://alyuza.site)
 
-### Features
+## Features
 - Optimized for Desktop browsing
 - Responsive layout and Compatible with mobile devices
 - We can see Infinite Scroll Image, learn from [YouTube](https://www.youtube.com/watch?v=3Z780EOzIQs)
 
-### Website Test
+## Website Test
 The website has been tested on the following platforms:
 
 - Google Chrome (Recommended)
@@ -88,3 +88,6 @@ Importing existing Github project to Netlify.
 
 7. Finish.
 <img width="1440" alt="Screenshoot" src="Assets/dns7.png">
+
+## Google Lighthouse Score
+<img width="1440" alt="lighthouse" src="Assets/lighthouse.png">
