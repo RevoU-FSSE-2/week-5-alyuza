@@ -8,6 +8,17 @@
 
 ## Website Overview
 Official website of the largest Taekwondo Community in Indonesia, has several training centers spread throughout Indonesia. This website is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones.
+## STRUCTURE
+
+- Header
+  - Navbar
+- Main
+  - Home section
+  - About section
+  - Programs section
+  - Instructor section
+  - Contact Us section
+- Footer
 
 ### Deployment ⚙️
 The website is hosted by Netlify on [alyuza.site](https://alyuza.site)
@@ -23,9 +34,9 @@ The website has been tested on the following platforms:
 - Google Chrome (Recommended)
 - Mobile devices (Android and IOS) 
 
-## Codes
+## Preparations
 ```
-//prepare projects
+//git clone
 git clone https://github.com/RevoU-FSSE-2/week-5-alyuza.git
 cd week-5-alyuza
 git add .
@@ -34,7 +45,7 @@ code .
 //review status / changes
 git status
 
-//how to commits
+//commits
 git commit -f 'commit message'
 git remote set-url origin https://github.com/RevoU-FSSE-2/week-5-alyuza.git
 
@@ -48,11 +59,32 @@ Importing existing Github project to Netlify.
 3. Pick a repository from github
 4. Site configuration and deploy
 
-<img width="1440" alt="Screenshoot" src="Assets/deploy1.png">
+<img width="1440" alt="Screenshoot" src="Assets/deploy.png">
 
 ## DNS Settings
-Domain is provided by Niagahoster and managed through Cloudflare.
-1. Login to Cloudflare, and then adding new site
-<img width="1440" alt="Screenshoot" src="Assets/deploy2.png">
+1. Login to Cloudflare, and then adding new site.
+<img width="1440" alt="Screenshoot" src="Assets/dns1.png">
+<br>
 
-2. Mohon bersabar ini masih diketik :)
+2. Scroll down, choose free.
+<img width="1440" alt="Screenshoot" src="Assets/dns2.png">
+<br>
+
+3. Add Cloudflare's name servers. Copy 2 server names below.
+<img width="1440" alt="Screenshoot" src="Assets/dns3.png">
+<br>
+
+4. Login to NiagaHoster and paste name server.
+<img width="1440" alt="Screenshoot" src="Assets/dns4.png">
+<br>
+
+5. Back to Cloudflare > Click your site (mine : alyuza.site) > DNS > Records > DNS Management. Then Add record >> CNAME : alyuza.site || Content : taekwondo-academy.netlify.app
+<img width="1440" alt="Screenshoot" src="Assets/dns5.png">
+<br>
+
+6. Back to Netlify choose your project and Add a domain (alyuza.site) / (your site).
+<img width="1440" alt="Screenshoot" src="Assets/dns6.png">
+<br>
+
+7. Finish.
+<img width="1440" alt="Screenshoot" src="Assets/dns7.png">
