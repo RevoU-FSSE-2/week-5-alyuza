@@ -59,23 +59,23 @@ Importing existing Github project to Netlify.
 3. Pick a repository from github
 4. Site configuration and deploy
 
-<img width="1440" alt="Screenshoot" src="Assets/deploy.png">
+<img width="700" alt="Screenshoot" src="Assets/deploy.png">
 
 ## DNS Settings
 1. Login to Cloudflare, and then adding new site.
-<img width="1440" alt="Screenshoot" src="Assets/dns1.png">
+<img width="600" alt="Screenshoot" src="Assets/dns1.png">
 <br>
 
 2. Scroll down, choose free.
-<img width="1440" alt="Screenshoot" src="Assets/dns2.png">
+<img width="650" alt="Screenshoot" src="Assets/dns2.png">
 <br>
 
 3. Add Cloudflare's name servers. Copy 2 server names below.
-<img width="1440" alt="Screenshoot" src="Assets/dns3.png">
+<img width="650" alt="Screenshoot" src="Assets/dns3.png">
 <br>
 
 4. Login to NiagaHoster and paste name server.
-<img width="1440" alt="Screenshoot" src="Assets/dns4.png">
+<img width="650" alt="Screenshoot" src="Assets/dns4.png">
 <br>
 
 5. Back to Cloudflare > Click your site (mine : alyuza.site) > DNS > Records > DNS Management. Then Add record >> CNAME : alyuza.site || Content : taekwondo-academy.netlify.app
@@ -83,11 +83,11 @@ Importing existing Github project to Netlify.
 <br>
 
 6. Back to Netlify choose your project and Add a domain (alyuza.site) / (your site).
-<img width="1440" alt="Screenshoot" src="Assets/dns6.png">
+<img width="440" alt="Screenshoot" src="Assets/dns6.png">
 <br>
 
 7. Finish.
-<img width="1440" alt="Screenshoot" src="Assets/dns7.png">
+<img width="440" alt="Screenshoot" src="Assets/dns7.png">
 
 ## Google Lighthouse Score
-<img width="1440" alt="lighthouse" src="Assets/lighthouse.png">
+<img width="350" alt="lighthouse" src="Assets/lighthouse.png">
