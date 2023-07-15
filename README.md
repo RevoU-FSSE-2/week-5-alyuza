@@ -1,5 +1,6 @@
 <!-- [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/f6dTnkNL) -->
-# Project Milestone 1 - Alyuza
+# Taekwondo Academy
+## Project Milestone 1 - Alyuza
 <img width="1430" alt="screenshoot" src="Assets/github1.png">
 <img width="1430" alt="screenshoot" src="Assets/github2.png">
 <img width="1430" alt="screenshoot" src="Assets/github3.png">
