@@ -2,10 +2,6 @@
 # Taekwondo Academy 🥋
 ## Project Milestone 1 - Alyuza Satrio Prayogo 👦🏻
 <img width="1430" alt="screenshoot" src="Assets/github1.png">
-<img width="1430" alt="screenshoot" src="Assets/github2.png">
-<img width="1430" alt="screenshoot" src="Assets/github3.png">
-<img width="1430" alt="screenshoot" src="Assets/github4.png">
-<img width="1430" alt="screenshoot" src="Assets/github5.png">
 
 ## Website Overview 💻
 Official website of the largest Taekwondo Community in Indonesia, has several training centers spread throughout Indonesia. This website is designed to be fully responsive and supports multiple dimensions, including desktop and mobile phones.
